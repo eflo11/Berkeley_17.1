@@ -2,6 +2,8 @@
 ## Campaign Accuracy
 With in this Jupyter Notebook you will find the analysis of banking campaigns that allows us to make more data driven decisions on how to better predict who will sign up to enroll in long term deposits with good interest rates. The full definition of the work can be found [here](./CRISP-DM-BANK.pdf).
 
+Our work on this dataset can be found [here](./prompt_III.ipynb) if you'd like to run and/or enhance it on your own.
+
 ## Analysis
 To first make predictions we first need to understand the data. This is done through various techniques. The first part was to check for incomplete data:
 ```python
@@ -77,3 +79,6 @@ However when looking at the overall graph that includes the accuracy, precision,
 ![Result](./images/results.png)
 
 With the accuracy so close between all of them it makes sense to then give equal weight to precision, and recall to make sure that you are receiving less false positives and false negatives.
+
+### What to do next
+Now that we have our models we can take on new customers, pass their data through our model and be able to determine whether or not they would accept a similar campaign with 91+% accuracy. This should help us in saving hours of time and money targeting the right people.

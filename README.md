@@ -72,3 +72,8 @@ wed          88.332924  11.667076
 ## Outcome
 After doing another round of models we were able to determine that the DT through different params using GridSearch and got it to a 91.4% accuracy which was a 3% increase vs initial testing.
 
+However when looking at the overall graph that includes the accuracy, precision, and recall there is one that has a higher overall value when considering those three tiers and that is DT.
+
+![Result](./images/results.png)
+
+With the accuracy so close between all of them it makes sense to then give equal weight to precision, and recall to make sure that you are receiving less false positives and false negatives.
